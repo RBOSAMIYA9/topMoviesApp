@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import { webseriesDb } from "../movies.js";
+import { webseriesDb } from "./movies";
 
 export default function App() {
   const [content, setContent] = useState(webseriesDb.sciFi);
